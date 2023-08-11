@@ -1,0 +1,92 @@
+body{
+    height: 1080px;
+    background: rgb(161, 91, 91);
+}
+.nav {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    margin: 4px;
+}
+
+.nav2 {
+    display: inline;
+    text-align: right;
+    float: right;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;
+    margin: 4px;
+}
+
+.nav2 button {
+    background-color: #4285F4;
+    color: aliceblue;
+    border-radius: 2px;
+    border: 2px;
+    width: 70px;
+    height: 30px;
+}
+
+#apps img {
+    width: 27px;
+    justify-items: center;
+}
+
+.container  {
+    margin-top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin-top: 25px;
+    width: 600px;
+    border-radius: 50px;
+    height: 35px;
+    border-width: 1px;
+    border-color: lightgray;
+    display: inline;
+    z-index: 2;
+        
+    
+
+
+
+}
+svg{
+    margin-left: 36%;
+    height: 20px;
+    width: 20px;
+    z-index: 1;
+    
+
+}
+
+.footer{
+    background-color: rgb(100, 104, 107);
+    display: flex;
+    align-items: flex-end;
+    margin-top: 709px;
+   
+    
+}
+
+.footer ul  {
+    display: flex;
+    flex-direction: row ;
+    
+
+}
+.footer ul li  {
+    display: flex;
+    flex-direction: row ;
+    padding-left: 15px;
+
+}
